@@ -9,7 +9,6 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        Toast.makeText(this, "Welcome to the MainActivity!", Toast.LENGTH_LONG).show();
         // Initialize Views
         displayTextView = findViewById(R.id.tv1);
         inputStringBuilder = new StringBuilder();
